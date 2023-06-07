@@ -1,5 +1,6 @@
 package com.design.commerce;
 
-interface OrderObserver {
-
+interface OrderObserver
+{
+    void update(Order order);
 }
